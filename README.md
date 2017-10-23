@@ -3,7 +3,7 @@ HTML5 Validation Helpers for Reactstrap
 
 ## Usage
 
-Basically, replace `FormGroup` from reactstrap with `ValidationgFormGroup`. This will cause the `Input` inside to have `valid` prop bound to HTML5 ValidationState.
+Basically, replace `FormGroup` from reactstrap with `ValidatingFormGroup`. This will cause the `Input` inside to have `valid` prop bound to HTML5 ValidationState.
 
 Optional props:
 

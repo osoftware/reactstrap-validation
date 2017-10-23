@@ -36,10 +36,6 @@ export class ValidatingFormGroup extends React.Component<IValidatingFormGroupPro
           onBlur: this.handle(element.props.onBlur, 'blur'),
           key: index
         });
-      case Label:
-        return React.cloneElement(element, {
-          children: element.props.children.map(this.enhance),
-        });
       default:
         return element;
     }
